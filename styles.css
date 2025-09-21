@@ -2,8 +2,8 @@
  * Import the Nerdfonts icon font.
  * Ref https://www.nerdfonts.com/cheat-sheet for a cheatsheet of available Nerdfonts icons.
  */
-
-/* Modified by
+/*
+ * Modified by
  * ___                 _     ___                _   ___                 _                          
  *|   \   __ _   _ _  | |__ / __|  ___   _  _  | | | __|  _ _    __ _  (_)  _ _    ___   ___   _ _ 
  *| |) | / _` | | '_| | / / \__ \ / _ \ | || | | | | _|  | ' \  / _` | | | | ' \  / -_) / -_) | '_|
@@ -42,7 +42,6 @@
   --color-root-bg: rgb(30 30 30 / 0%);
 }
 
-
 /* Icon styling – KEEP HARD-CODED */
 i {
   color: var(--color-primary); /* primary neon color */
@@ -52,7 +51,7 @@ i {
 
 /* Body and general text */
 body {
-  color: var(--color-white); /* default text color */
+  color: var(--color-white-strong); /* default text color */
   font-family: ui-monospace, monospace;
   font-size: 12px;
   overflow: hidden; /* prevent scrollbars */
@@ -159,7 +158,7 @@ body,
   background: var(--color-secondary);
   margin-right: 4px;
   padding: 4px 8px;
-  color: var(--color-white);
+  color: var(--color-white-strong);
   border: 1px solid var(--color-primary-box);
   border-radius: 4px;
   cursor: pointer;
@@ -233,7 +232,7 @@ body,
   padding: 0;
   border-radius: 0;
   box-shadow: none;
-  color: var(--color-primary);
+  color: var(--color-white-strong);
 }
 
 .network:hover,
