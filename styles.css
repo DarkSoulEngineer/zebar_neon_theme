@@ -15,32 +15,33 @@
 /* Root variables for theme customization */
 :root {
   /* Primary neon cyan */
-  --color-primary: rgb(14 176 193 / 100%);
-  --color-primary-light: rgb(14 176 193 / 30%);
-  --color-primary-hover: rgb(14 176 193 / 70%);
-  --color-primary-glow: rgb(14 176 193 / 80%);
-  --color-primary-box: rgb(14 176 193 / 20%);
-  --color-primary-box-strong: rgb(14 176 193 / 40%);
+  --color-primary: rgb(0 255 255 / 100%);
+  --color-primary-light: rgb(0 255 255 / 30%);
+  --color-primary-hover: rgb(0 255 255 / 70%);
+  --color-primary-glow: rgb(0 255 255 / 80%);
+  --color-primary-box: rgb(0 255 255 / 20%);
+  --color-primary-box-strong: rgb(0 255 255 / 40%);
 
   /* Panel backgrounds (neutral gray tones) */
-  --color-secondary: rgb(40 40 40 / 80%);
-  --color-secondary-transparent: rgb(40 40 40 / 60%);
+  --color-secondary: rgb(50 50 50 / 80%);
+  --color-secondary-transparent: rgb(50 50 50 / 60%);
 
   /* Text colors (white for strong contrast) */
   --color-white: rgb(255 255 255 / 90%);
   --color-white-strong: rgb(255 255 255 / 100%);
 
   /* Alerts (soft cyan to keep theme consistent) */
-  --color-alert: rgb(100 220 230 / 100%);
-  --color-alert-glow: rgb(100 220 230 / 60%);
+  --color-alert: rgb(0 255 255 / 100%);
+  --color-alert-glow: rgb(0 255 255 / 60%);
 
   /* Battery (neon cyan stays consistent) */
-  --color-battery-full: rgb(14 176 193 / 100%);
-  --color-battery-full-glow: rgb(14 176 193 / 80%);
+  --color-battery-full: rgb(0 255 255 / 100%);
+  --color-battery-full-glow: rgb(0 255 255 / 80%);
 
   /* Root background (dark neutral gray) */
   --color-root-bg: rgb(30 30 30 / 0%);
 }
+
 
 /* Icon styling – KEEP HARD-CODED */
 i {
