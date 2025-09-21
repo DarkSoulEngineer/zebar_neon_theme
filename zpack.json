@@ -7,9 +7,9 @@
     "neon"
   ],
   "previewImages": [
-    "img/image1.png"
+    "icon.png"
   ],
-  "repositoryUrl": "https://github.com/echosonusharma/zebar_neon_theme",
+  "repositoryUrl": "https://github.com/DarkSoulEngineer/zebar_neon_theme",
   "widgets": [
     {
       "name": "neon",
