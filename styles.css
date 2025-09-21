@@ -2,7 +2,6 @@
  * Import the Nerdfonts icon font.
  * Ref https://www.nerdfonts.com/cheat-sheet for a cheatsheet of available Nerdfonts icons.
  */
-/*
  * Modified by
  * ___                 _     ___                _   ___                 _                          
  *|   \   __ _   _ _  | |__ / __|  ___   _  _  | | | __|  _ _    __ _  (_)  _ _    ___   ___   _ _ 
@@ -10,7 +9,6 @@
  *|___/  \__,_| |_|   |_\_\ |___/ \___/  \_,_| |_| |___| |_||_| \__, | |_| |_||_| \___| \___| |_|  
  *                                                              |___/                               
  */
-
 @import 'https://www.nerdfonts.com/assets/css/webfont.css';
 
 /* Root variables for theme customization */
@@ -18,30 +16,30 @@
   /* Primary neon cyan */
   --color-primary: rgb(14 176 193 / 100%);
   --color-primary-light: rgb(14 176 193 / 30%);
-  --color-primary-hover: rgb(174 51 5 / 50%);
-  --color-primary-glow: rgb(14 176 193 / 60%);
-  --color-primary-box: rgb(80 130 30 / 35%);
-  --color-primary-box-strong: rgb(80 130 30 / 50%);
+  --color-primary-hover: rgb(14 176 193 / 70%);
+  --color-primary-glow: rgb(14 176 193 / 80%);
+  --color-primary-box: rgb(14 176 193 / 20%);
+  --color-primary-box-strong: rgb(14 176 193 / 40%);
 
-  /* Panel backgrounds */
-  --color-secondary: rgb(77 66 64 / 45%);
-  --color-secondary-transparent: rgb(77 66 64 / 25%);
-  /* Text colors */
-  --color-white: rgb(216 215 213 / 100%);
-  --color-white-strong: rgb(216 215 213 / 95%);
+  /* Panel backgrounds (neutral gray tones) */
+  --color-secondary: rgb(40 40 40 / 80%);
+  --color-secondary-transparent: rgb(40 40 40 / 60%);
 
-  /* Alerts */
-  --color-alert: rgb(94 92 91 / 100%);
-  --color-alert-glow: rgb(94 92 91 / 60%);
+  /* Text colors (white for strong contrast) */
+  --color-white: rgb(255 255 255 / 90%);
+  --color-white-strong: rgb(255 255 255 / 100%);
 
-  /* Battery */
+  /* Alerts (soft cyan to keep theme consistent) */
+  --color-alert: rgb(100 220 230 / 100%);
+  --color-alert-glow: rgb(100 220 230 / 60%);
+
+  /* Battery (neon cyan stays consistent) */
   --color-battery-full: rgb(14 176 193 / 100%);
-  --color-battery-full-glow: rgb(14 176 193 / 60%);
+  --color-battery-full-glow: rgb(14 176 193 / 80%);
 
-  /* Root background */
-  --color-root-bg: rgba(0, 0, 0, 0);
+  /* Root background (dark neutral gray) */
+  --color-root-bg: rgb(30 30 30 / 0%);
 }
-
 
 /* Icon styling – KEEP HARD-CODED */
 i {
