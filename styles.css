@@ -162,7 +162,7 @@ html, body, #root {
 
 .workspace.displayed {
   background: var(--color-secondary);
-  box-shadow: 0 0 15px var(--color-primary-box-strong);
+  box-shadow: 0 0 12px var(--color-primary-box-strong);
 }
 
 .workspace.focused,
@@ -247,7 +247,7 @@ html, body, #root {
   background: var(--transparent-backround);
   padding: 4px 12px;
   border-radius: 4px;
-  box-shadow: 0 0 15px var(--color-primary-box);
+  box-shadow: 0 0 12px var(--color-primary-box);
   border: 1px solid var(--color-primary-box);
 }
 
@@ -298,6 +298,6 @@ html, body, #root {
   }
   50% {
     color: var(--color-battery-pulse);
-    text-shadow: 0 0 15px var(--color-battery-full-glow);
+    text-shadow: 0 0 12px var(--color-battery-full-glow);
   }
 }
